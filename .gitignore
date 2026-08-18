@@ -1,0 +1,9 @@
+# Raw, full-resolution source photos (licensed stock, ~480MB) — not for the repo.
+# Optimized web-ready versions live in assets/img/photos/
+/photos/
+
+# Internal campaign memo — not part of the public site
+WebMemo_TCX_MillerCreekSD2_1a.docx
+
+.DS_Store
+**/.DS_Store

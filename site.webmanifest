@@ -1,0 +1,11 @@
+{
+  "name": "Yes on N for Miller Creek Schools",
+  "short_name": "Yes on N",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f3",
+  "theme_color": "#0f2a52",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
