@@ -275,6 +275,7 @@ body.nav-open .nav-toggle svg.close-icon { display: block; }
   position: absolute; inset: 0;
   background-image: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.14) 0, transparent 35%);
   z-index: 0;
+  pointer-events: none;
 }
 .photo-frame .ph-inner {
   position: relative;
@@ -647,6 +648,7 @@ section { padding: 84px 0; }
   content: "";
   position: absolute; inset: 0;
   background-image: radial-gradient(circle at 90% 10%, rgba(242,167,27,0.22) 0, transparent 40%);
+  pointer-events: none;
 }
 .page-hero .container { position: relative; }
 .page-hero h1 { color: #fff; margin-bottom: 14px; max-width: 20ch; }
