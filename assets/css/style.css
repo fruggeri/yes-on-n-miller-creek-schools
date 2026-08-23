@@ -396,6 +396,28 @@ section { padding: 84px 0; }
 }
 .check-list .tick svg { width: 16px; height: 16px; }
 
+.endorser-grid { align-items: start; }
+.endorser-list { margin-top: 4px; }
+.endorser-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.endorser-list li:last-child { border-bottom: none; }
+.endorser-list strong {
+  display: block;
+  font-family: var(--font-head);
+  font-weight: 700;
+  color: var(--navy-900);
+  font-size: 0.98rem;
+  line-height: 1.3;
+}
+.endorser-list span {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--ink-600);
+  margin-top: 2px;
+}
+
 .pill-list li {
   display: flex;
   gap: 12px;
