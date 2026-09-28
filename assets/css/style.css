@@ -472,7 +472,7 @@ section { padding: 84px 0; }
 .cta-band p { color: var(--navy-800); }
 .cta-band-actions { display: flex; gap: 14px; flex-wrap: wrap; }
 
-.quad-cta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.quad-cta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .quad-cta a {
   background: var(--card);
   border: 1px solid var(--border);
