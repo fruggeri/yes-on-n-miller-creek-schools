@@ -396,7 +396,12 @@ section { padding: 84px 0; }
 }
 .check-list .tick svg { width: 16px; height: 16px; }
 
-.endorser-grid { align-items: start; }
+.endorser-grid { align-items: stretch; }
+.endorser-wide { grid-column: span 2; }
+.endorser-full { grid-column: 1 / -1; }
+.endorser-list.cols-2 { column-count: 2; column-gap: 40px; }
+.endorser-list.cols-3 { column-count: 3; column-gap: 40px; }
+.endorser-list.cols-2 li, .endorser-list.cols-3 li { break-inside: avoid; border-bottom: none; padding: 9px 0; }
 .endorser-list { margin-top: 4px; }
 .endorser-list li {
   padding: 12px 0;
@@ -735,4 +740,13 @@ section { padding: 84px 0; }
 @media (max-width: 480px) {
   .quad-cta { grid-template-columns: 1fr; }
   .stat-band { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 980px) {
+  .endorser-grid { grid-template-columns: 1fr; }
+  .endorser-wide, .endorser-full { grid-column: auto; }
+  .endorser-list.cols-3 { column-count: 2; }
+}
+@media (max-width: 760px) {
+  .endorser-list.cols-2, .endorser-list.cols-3 { column-count: 1; }
 }
